@@ -9,7 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.1",
     "dotenv": "^10.0.0",
+    "node-schedule": "^2.0.0",
+    "string-progressbar": "^1.0.4",
     "twit": "^2.2.11"
   }
 }
