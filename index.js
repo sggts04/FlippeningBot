@@ -1,6 +1,6 @@
 require('dotenv').config();
-const tweetJob = require('./tweetJob');
-const mentionJob = require('./mentionJob');
+const tweetJob = require('./jobs/tweetJob');
+const mentionJob = require('./jobs/mentionJob');
 
 tweetJob.start();
 mentionJob.start();
